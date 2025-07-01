@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x600/?restaurant,dining') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.booking-section {
+  background-color: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.booking-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2a9d8f;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, button {
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #2a9d8f;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21867a;
+}
+
+.gallery {
+  padding: 2rem;
+  background-color: #fdf6ec;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.images img {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
